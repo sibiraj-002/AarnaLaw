@@ -3,7 +3,7 @@ import React from "react"
 
 const Network = () => {
   return (
-    <div className="flex flex-col items-center gap-10 mb-14">
+    <div className="flex flex-col items-center gap-10 mb-14 p-8">
       <h1 className="text-custom-blue text-xl md:text-2xl font-semibold">
         A Network Of 75+ Lawyers Around The World
       </h1>
@@ -18,7 +18,7 @@ const Network = () => {
             alt="World Map"
           />
         </div>
-        <div className="absolute bottom-[37%] left-[47%] md:bottom-[58%] md:left-[66%]">
+        <div className="absolute bottom-[37%] left-[47%] md:bottom-[58%] md:left-[66%] sm:bottom-[8%] sm:left-[6%] ">
           <div className="md:space-y-7 space-y-3 ms-5">
             <button
               data-popover-target="new-delhi"

@@ -6,7 +6,7 @@ const WhatWeDo = () => {
     <div className="container mx-auto flex flex-col md:flex-row">
       <div className="w-full md:w-1/2">
         <Image
-          src="/home-page/what-we-do@2x.png"
+          src="/home-page/What_we_do.jpg"
           width={683}
           height={456}
           className="w-full"

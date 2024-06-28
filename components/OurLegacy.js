@@ -24,7 +24,7 @@ const OurLegacy = () => {
       </div>
       <div className="w-full md:w-1/2">
         <img
-          src="/home-page/our-legacy@2x.png"
+          src="/home-page/Our_legacy.jpg"
           width={683}
           height={456}
           className="w-full"
