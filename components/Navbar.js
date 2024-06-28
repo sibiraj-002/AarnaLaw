@@ -3,7 +3,13 @@ import Image from "next/image"
 const Navbar = () => {
   return (
     <div className="w-full relative flex justify-center">
-      <nav className="absolute bg-white dark:bg-gray-900 fixed w-11/12 md:w-10/12 z-20 my-12 border-b border-gray-200 dark:border-gray-600">
+
+      <div className="absolute z-50 flex justify-end space-x-2 right-28 my-5">
+        <button className="bg-white text-red-700 p-2">Contact Us</button>
+        <button className="bg-white text-red-700 p-2">Translate</button>
+      </div>
+
+      <nav className="absolute bg-white dark:bg-gray-900  w-11/12 md:w-10/12 z-20 my-20 border-b border-gray-200 dark:border-gray-600 ">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
             href="/"

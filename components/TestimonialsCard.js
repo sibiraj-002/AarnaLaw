@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const TestimonialsCard = ({ testimonialDetails }) => {
   return (
-    <div className="flex flex-col gap-6 bg-white shadow-lg my-3 p-3 w-auto md:w-[525px]">
+    <div className="flex flex-col gap-6 bg-white shadow-lg my-3 p-3 w-auto md:w-[470px]">
       <div className="flex justify-start gap-4">
         <Image
           src={testimonialDetails.imageUrl}

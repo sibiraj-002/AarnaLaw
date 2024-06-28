@@ -163,7 +163,7 @@ function HomeBanner() {
   }
 
   return (
-    <div className="flex flex-col md:flex-row bg-white md:absolute md:left-0 md:right-0 items-center gap-10 md:-mt-24 md:ml-24 md:p-10">
+    <div className="flex flex-col md:flex-row bg-white md:absolute md:left-0 md:right-0 items-center gap-0 md:-mt-24 md:ml-24 md:pt-10">
       <div className="flex flex-col items-center gap-7">
         <h1 className="text-custom-red md:writing-mode-vertical-rl transform md:rotate-180 text-[80px] font-bold m-0 p-0">
           Insights
@@ -178,7 +178,7 @@ function HomeBanner() {
           </div>
         </div>
       </div>
-      <div className="md:px-4 mx-auto max-w-screen-xl flex flex-col md:flex-row gap-5">
+      <div className=" mx-auto max-w-screen-xl flex flex-col md:flex-row gap-5">
         {insights.map((item) => (
           <InsightsCard key={item.id} cardDetails={item} />
         ))}
