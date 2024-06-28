@@ -57,12 +57,6 @@ function HomeBanner() {
     />
   </div> */}
 
-          {/* <div>
-<Button className="text-red-600 bg-slate-100 p-1 z-50 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 my-24 rounded-none">Contact Us</Button>
-<Button className="text-red-600 bg-slate-100 p-1 z-50 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 my-24 rounded-none">Contact Us</Button>
-
-</div> */}
-
           <div className="relative overflow-hidden">
             <Image
               src="/home-page/home-banner-1.jpg"
